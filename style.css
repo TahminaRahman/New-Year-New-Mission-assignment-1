@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Merriweather", serif;
+}
+
+.btn-primary {
+    padding: 11px 31px;
+    color: white;
+    margin-top: 22px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+}
+
+/* header section start here */
+.header-section {
+    width: 80%;
+    height: 550px;
+    border: 1px solid gray;
+    margin: 50px auto;
+    background-image: url(imgs/Banner\ Image.png), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 19px;
+    background-blend-mode: darken;
+    color: rgb(255, 255, 255);
+}
+
+.heading-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.heading-sub-title {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* header section end here */
+
+/* offer section start here */
+
+.offer-section {
+    width: 80%;
+    height: 724px;
+    /* border: 1px solid gray; */
+    margin: 0px auto;
+}
+
+.offer-parcen {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 65px;
+}
+
+span {
+    color: rgb(255, 0, 0);
+
+}
+
+.offer-description {
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.categories-section {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer-profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* offer section end here */
+
+/* Welcome to midnight party section start here */
+.midnight-party {
+    width: 80%;
+    height: 450px;
+    /* border: 1px solid gray; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("imgs/Vectorrr.png");
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.midnight-text {
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    background-color: rgba(255, 0, 0, 0.1) rgba(255, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* border: 2px solid white; */
+    padding-left: 111px;
+    padding-top: 94px;
+    border-radius: 10px;
+}
+
+.midnight-heading {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 76px;
+}
+
+.midnight-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.line-cnt {
+    line-height: 70px;
+}
+
+.text-btn {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.year-change {
+    width: 33%;
+    height: 300px;
+    padding-left: 81px;
+}
+
+.year-imgs {
+    width: 62%;
+    padding-top: 46px;
+    padding-left: 58px;
+}
+
+/* Welcome to midnight party section end here */
+
+
+.new-hotel {
+    width: 80%;
+    height: 250px;
+    /* border: 1px solid gray; */
+    margin: 100px auto;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 23px;
+    line-height: 43px;
+}
+
+.new-hotel-section {
+    margin-top: 40px;
+}
+
+/* best-offer section start here */
+
+.best-offer {
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid gray; */
+    margin: 135px auto;
+    display: flex;
+    gap: 70px;
+}
+
+.comming-soon {
+    margin-top: 45px;
+}
+
+.images {
+    margin-right: 55px;
+}
+
+.comming-soon-title {
+    padding-bottom: 15px;
+}
+
+.comming-soon-subtitle {
+    padding-bottom: 10px;
+}
+
+.celebrate-year {
+    padding: 50px;
+}
+
+.comming-soon-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.profile-photo {
+    width: 108%;
+    padding: 14px;
+    border: 7px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.celebrate-year {
+    line-height: 30px;
+}
+
+.celebrate-photo {
+    width: 30%;
+    padding-top: 10px;
+}
+
+.celebrate-title {
+    padding-bottom: 10px;
+}
+
+/* best-offer section start here */
+
+/* holy day section start here */
+.holyday-section {
+    width: 80%;
+    height: 250px;
+    /* border: 1px solid gray; */
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.holyday-title {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holyday-subtitle {
+    font-family: Merriweather;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holyday-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* holy day section end here */
+
+/* images profile section start here */
+.discount-section {
+    width: 80%;
+    height: 350px;
+    /* border: 1px solid gray; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.shopping-profile{
+    height: 60%;
+    position: absolute;
+    top: 77px;
+    right: 256px;
+    z-index: 1;
+}
+.dicount-tag{
+    position: relative;
+}
+.discount-leftside {
+    position: relative;
+    padding-left: 106px;
+    padding-top: 49px;
+}
+
+.top-ber {
+    width: 80%;
+    height: 200px;
+    /* border: 1px solid gray; */
+    margin: 0px auto;
+    z-index: 1;
+}
+
+
+
+/* images profile section end here */
+
+/* Our Awesome Portfolio section start here */
+
+.titile-product {
+    width: 80%;
+    height: 150px;
+    /* border: 1px solid gray; */
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product-subtitle {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 69px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.product-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+.product-section{
+    margin: 0px auto;
+}
+.product-photo{
+    width: 80%;
+    height: 750px;
+    margin: 60px auto;
+    background-size: 100%;
+    gap: 25px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+.product-photo img{
+    width: 384px;
+    height: 352px;
+}
+/* .product-section {
+    width: 80%;
+    height: 600px;
+    border: 1px solid gray;
+    margin: 0px auto;
+    gap: 40px;
+    margin: 0px auto;
+    padding: 16px 0px;
+    display: flex;
+}
+
+.product-photo div {
+    max-width: 800px;
+}
+
+.product-photo img {
+    max-width: 100%;
+    width: 10%;
+    height: 300px;
+
+} */
+
+/* Our Awesome Portfolio section end here */
+
+/* Subscribe newslatter section start here */
+
+.contact_4 {
+    width: 80%;
+    height: 432px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 100px auto;
+    /* margin: 21px auto; */
+}
+
+.contact {
+    text-align: center;
+    margin: 21px auto;
+}
+
+.subscript {
+    margin-top: 50px;
+}
+
+.newslatter-picture {
+    width: 7%;
+    margin-top: 75px;
+}
+
+.newslatter-section {
+    color: rgb(7, 2, 17);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    /* margin: 50px auto; */
+}
+
+.newslatter-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* margin: 50px auto; */
+}
+
+.input-section {
+    width: 50%;
+    height: 37px;
+    border-radius: 14px;
+    padding: 0px 19px;
+    border: none;
+    margin: 19px;
+}
+
+/* Subscribe newslatter section end here */
+
+/* footer section start here */
+.ending-section {
+    background-color: rgb(7, 2, 17);
+    color: white;
+    height: 426px;
+}
+
+.footer-section {
+    width: 80%;
+    border: 2px solid rgb(7, 2, 17);
+    margin: 100px auto;
+    height: 400px;
+}
+
+.building-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+    /* border: 1px solid white; */
+    line-height: 40px;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15)
+}
+
+.social-link {
+    text-align: center;
+}
+
+.social-icon {
+    width: 4%;
+    padding: 10px 0px;
+}
+
+.footer-bottom-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
